@@ -1,0 +1,3 @@
+echo -n "file name:"
+read file
+scp -r $file root@172.31.12.59:/root/$file
